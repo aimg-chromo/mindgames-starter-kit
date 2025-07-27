@@ -33,9 +33,9 @@ def play_online():
     import textarena as ta
     from agent import LLMAgent
     
-    MODEL_NAME = "Test LLM agent - Track 1"
-    MODEL_DESCRIPTION = "This agent is for Track 1 - Social Detection (SecretMafia-v0)."
-    team_hash = "MG25-XXXXXXXXXX"  # Replace with your team hash
+    MODEL_NAME = "Testing - Chromo"
+    MODEL_DESCRIPTION = "Testing for Chromo"
+    team_hash = "MG25-56525767AD"  # Replace with your team hash
     
     agent = LLMAgent(model_name="Qwen/Qwen3-4B")
     
