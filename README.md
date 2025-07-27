@@ -25,7 +25,7 @@ cd mindgames-starter-kit
 Then install the necessary packages:
 
 ```shell
-pip install textarena>=0.7.2
+pip install -r requirements.txt
 ```
 
 ### Quick Start Example
