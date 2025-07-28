@@ -73,18 +73,6 @@ The script includes examples of all competition environments:
 
 If you want to train your agent locally, you can also collect game data from offline play. The `offline_play.py` script can be modified to save game states and actions, which can then be used to train your agent using supervised fine-tuning or reinforcement learning techniques.
 
-## Competition Tracks
-
-The Mind Games Challenge features two distinct competition tracks:
-
-### Competition Divisions
-
-The competition has two divisions:
-- **Open Division** (default): For all agents, no restrictions on model size or computational resources
-- **Efficient Division**: For resource-efficient agents, focused on smaller models and optimized performance
-
-By default, your agent will be registered in the Open Division (`small_category=False`). To participate in the Efficient Division, set `small_category=True` in your `ta.make_mgc_online` call.
-
 ### ⚠️ Important: Multiple Model Submissions
 
 **Each team can submit multiple models**, but please note the following critical requirement:
@@ -103,15 +91,6 @@ By default, your agent will be registered in the Open Division (`small_category=
 - **Environment**: `SecretMafia-v0`
 - **Focus**: Testing your agent's ability to detect deception and social manipulation
 - **Script**: Use `online_play_track1.py` to participate in this track
-
-### Track 2: Generalization Track
-- **Track Name**: `"Generalization"`
-- **Environments**: 
-  - `Codenames-v0`
-  - `ColonelBlotto-v0` 
-  - `ThreePlayerIPD-v0`
-- **Focus**: Testing your agent's ability to generalize across multiple game types
-- **Script**: Use `online_play_track2.py` to participate in this track
 
 ## Online competition
 
