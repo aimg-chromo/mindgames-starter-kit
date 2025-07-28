@@ -1,0 +1,31 @@
+# Day Discussion Phase
+[Player 1] I think Player 3 is suspicious because they were quiet yesterday
+[Player 2] I agree, Player 3 hasn't contributed much to the discussion
+
+# Day Voting Phase
+[GAME] The voting phase has began. On your turn, submit your vote for which player you want to vote out.
+       Simply reply in the following format: '[Player X]' or '[X]'
+       valid options: '[0]', '[1]', '[2]', '[3]', '[4]', '[5]'
+[Player 0] [3]
+[Player 1] [3]
+[Player 2] [5]
+[GAME] Player 3 has been eliminated. They were a Villager.
+
+# Night Phase (Mafia)
+[GAME] The Night phase has started, please vote who you would like to kill.
+       Only votes in the format '[Player X]' or '[X]' are valid.
+       Valid votes: '[0]', '[1]', '[2]', '[5]'
+[Player 4] [1]
+
+# Night Phase (Doctor)
+[GAME] We are in the Night phase. Since you are the doctor, you can decide which player to save.
+       Simply reply in the following format: '[Player X]' or '[X]'
+       valid options: '[0]', '[1]', '[2]', '[4]', '[5]'
+[Player 2] [1]
+
+# Night Phase (Detective)
+[GAME] We are in the Night phase. Since you are the detective, you can decide which player to investigate.
+       Simply reply in the following format: '[Player X]' or '[X]'
+       valid options: '[0]', '[1]', '[3]', '[4]', '[5]'
+[Player 5] [4]
+[GAME] Player 4 is part of the Mafia

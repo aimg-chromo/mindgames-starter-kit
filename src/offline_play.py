@@ -30,7 +30,6 @@ while not done:
     print(f"\n\n~~~~PLAYER {player_id}'s ACTION~~~~: \n {action}")
 
     done, step_info = env.step(action=action)
-    print(f"\n\n****STEP INFO****:\n{step_info}")
 
 rewards, game_info = env.close()
 

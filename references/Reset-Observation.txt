@@ -1,0 +1,25 @@
+Welcome to Secret Mafia! You are Player 0.
+Your role: Villager
+Team: Village
+Description: A regular villager. Your goal is to identify and eliminate all Mafia members through voting during the day.
+
+Players: Player 0, Player 1, Player 2, Player 3, Player 4, Player 5, Player 6
+
+The game progresses through Day and Night phases:
+• During the Day phase, there are 3 rounds of discussion followed by voting
+• During discussions, everything you say is automatically broadcasted to all players
+• After discussions, all players must vote to eliminate one player
+• During the Night phase, special roles perform their actions
+
+The game ends when either all Mafia members are eliminated (Village wins) or
+Mafia members equal or outnumber Villagers (Mafia wins)
+
+Your abilities:
+  During DAY phase:
+    • Everything you say is automatically shared with all players
+    • You'll vote to eliminate a player at the end of discussions
+
+  During NIGHT phase:
+    • You have no special actions during the night phase
+
+Your goal is to help identify and eliminate all Mafia members.
