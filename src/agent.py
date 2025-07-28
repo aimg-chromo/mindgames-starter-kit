@@ -18,8 +18,8 @@ class Agent(ABC):
         """
         pass
 
-    def strip_observation(self,observation: str) -> list:
-        
+    # def strip_observation(self,observation: str) -> list:
+        # pass       
 
 class LLMAgent(Agent):
     def __init__(self, model_name: str, device: str = "auto", quantize: bool = False, max_new_tokens: int = 1024,
@@ -64,14 +64,6 @@ class LLMAgent(Agent):
             return action
         except Exception as e:
             return f"An error occurred: {e}"
-
-class RandomAgent(Agent):
-    """New basic bot that reads available moves and spits one out"""
-    def __init__(self):
-        super().__init__()
-
-    def __call__(self, observation: str) -> str:
-        pass
 
 class HumanAgent(Agent):
     """ Human agent class that allows the user to input actions manually """

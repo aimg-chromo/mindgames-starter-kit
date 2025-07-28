@@ -4,12 +4,18 @@ You (human player) will be player 0, and the AI model will be player 1.
 """
 
 import textarena as ta 
-from agent import HumanAgent
+from agent import HumanAgent, LLMAgent
 
 # initialize the agents
 agents = {
     0: HumanAgent(),
     1: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
+    2: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
+    3: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
+    4: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
+    5: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
+    6: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
+    7: ta.agents.OpenRouterAgent(model_name="google/gemini-2.0-flash-lite-001"),
 }
 
 # initialize the environment
